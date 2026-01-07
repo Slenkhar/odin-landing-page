@@ -1,7 +1,9 @@
 html {
   box-sizing: border-box;
 }
-* {
+
+*, *::before, *::after {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
@@ -10,11 +12,10 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
-  justify-content: space-between;
+  max-height: 100vh;
 }
 
 .hero-section, .card-section, .quote-section, .footer-section {
-  height: 25vh;
   padding: 1em;
 }
  
@@ -38,7 +39,6 @@ body {
 }
 .hero-placeholder, .hero-text{
   width: 50%;
-  height: 18vh;
 }
 
 .header a {
@@ -51,12 +51,17 @@ body {
   display: flex;
 }
 
+.header li {
+  margin-left: 1em;
+}
+
 .hero-section {
   background-color: #1F2937;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  gap: 3rem;
 }
 
 .header, .hero {
@@ -70,10 +75,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
+  gap: 1rem;
 }
 
 .hero-text p {
-  padding-right: 2em;
   font-size: 18px;
 }
 
@@ -85,11 +90,15 @@ body {
   padding: 0.2em 2em;
   background-color: #3882F6;
   border-radius: 5px;
-  border-style: none;
+  border: none;
 }
 
 .hero {
   margin-bottom: 2vh;
+  align-items: stretch;
 }
+
+
+
 
 
