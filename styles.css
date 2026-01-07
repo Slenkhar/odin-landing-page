@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  justify-content: space-between;
+}
+
+.hero-section, .card-section, .quote-section, .footer-section {
+  height: 25vh;
+  padding: 1em;
+}
+ 
+.header h3, .hero-text h1, button {
+  color: #F9FAF8 ;
+}
+
+.header h3 {
+  font-size: 24px;
+}
+
+.hero-text p, .hero-placeholder {
+  color: #E5E7EB;
+}
+
+.hero-placeholder {
+  background-color: rgb(124, 128, 145);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-placeholder, .hero-text{
+  width: 50%;
+  height: 18vh;
+}
+
+.header a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+}
+
+.hero-section {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header, .hero {
+  display: flex;
+  width: 70vw;
+  justify-content: space-between;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.hero-text p {
+  padding-right: 2em;
+  font-size: 18px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+}
+
+.hero-text button {
+  padding: 0.2em 2em;
+  background-color: #3882F6;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.hero {
+  margin-bottom: 2vh;
+}
+
+
