@@ -23,6 +23,10 @@ body {
   color: #F9FAF8 ;
 }
 
+
+/* ::: HERO SECTION ::: */
+
+
 .header h3 {
   font-size: 24px;
 }
@@ -44,6 +48,7 @@ body {
 .header a {
   text-decoration: none;
   color: #E5E7EB;
+  font-size: 18px;
 }
 
 .header ul {
@@ -76,6 +81,7 @@ body {
   justify-content: space-between;
   align-items: start;
   gap: 1rem;
+  padding-right: 1em;
 }
 
 .hero-text p {
@@ -87,7 +93,7 @@ body {
 }
 
 .hero-text button {
-  padding: 0.2em 2em;
+  padding: 0.5em 2em;
   background-color: #3882F6;
   border-radius: 5px;
   border: none;
@@ -97,6 +103,45 @@ body {
   margin-bottom: 2vh;
   align-items: stretch;
 }
+
+
+/* ::: CARD SECTION ::: */
+
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card-title {
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #1F2937;
+  width: 160px;
+  padding: 0.2rem;
+  text-align: center;
+}
+
+.card-image{
+  height: 160px;
+  width: 160px;
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+}
+
+.card-container {
+  display: flex;
+  gap: 4rem;
+}
+
+
+/* ::: QUOTE SECTION ::: */
 
 
 
