@@ -185,6 +185,36 @@ body {
 /* ::: FOOTER SECTION ::: */
 
 
+.call-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
 
+.call-action {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #3882F6;
+  padding: 2rem 4rem;
+  color: #F9FAF8;
+  gap: 3rem;
+  border-radius: 10px;
+}
 
+.call-action button {
+  padding: 0.5em 2em;
+  background-color: #3882F6;
+  border-radius: 5px;
+  border: 2px solid #E5E7EB;
+}
+
+.footer {
+  background-color: #1F2937;
+  color:#E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 4rem;
+  padding: 1rem;
+}
 
